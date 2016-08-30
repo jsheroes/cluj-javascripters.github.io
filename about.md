@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-This is the About page.
+We are Cluj JavaScripters!
