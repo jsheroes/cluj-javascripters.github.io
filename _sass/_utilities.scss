@@ -1,0 +1,384 @@
+/**
+ * This file is a collection of utility classes.
+ * Utility classes can be composed and used on multiple objects.
+ * Changing one is not advised, since it will impact the entire application.
+ * Keep them simple and focused.
+ * Classes defined in this file should be named by the following pattern: `$u-[name]`.
+ */
+
+
+
+/* ===== MARGINS ===== */
+
+.u-mt-zero,
+%u-mt-zero { margin-top: 0; }
+
+.u-mb-zero,
+%u-mb-zero { margin-bottom: 0; }
+
+.u-ml-zero,
+%u-ml-zero { margin-left: 0; }
+
+.u-mr-zero,
+%u-mr-zero { margin-right: 0; }
+
+.u-mv-zero,
+%u-mv-zero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-mh-zero,
+%u-mh-zero {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.u-ma-zero,
+%u-ma-zero { margin: 0; }
+
+.u-mt-half,
+%u-mt-half { margin-top: $baseMargin / 2; }
+
+.u-mb-half,
+%u-mb-half { margin-bottom: $baseMargin / 2; }
+
+.u-ml-half,
+%u-ml-half { margin-left: $baseMargin / 2; }
+
+.u-mr-half,
+%u-mr-half { margin-right: $baseMargin / 2; }
+
+.u-mv-half,
+%u-mv-half {
+  margin-top: $baseMargin / 2;
+  margin-bottom: $baseMargin / 2;
+}
+
+.u-mh-half,
+%u-mh-half {
+  margin-left: $baseMargin / 2;
+  margin-right: $baseMargin / 2;
+}
+
+.u-ma-half,
+%u-ma-half { margin: $baseMargin / 2; }
+
+.u-mt-full,
+%u-mt-full { margin-top: $baseMargin; }
+
+.u-mb-full,
+%u-mb-full { margin-bottom: $baseMargin; }
+
+.u-ml-full,
+%u-ml-full { margin-left: $baseMargin; }
+
+.u-mr-full,
+%u-mr-full { margin-right: $baseMargin; }
+
+.u-mv-full,
+%u-mv-full {
+  margin-top: $baseMargin;
+  margin-bottom: $baseMargin;
+}
+
+.u-mv-full,
+%u-mv-full {
+  margin-left: $baseMargin;
+  margin-right: $baseMargin;
+}
+
+.u-ma-full,
+%u-ma-full { margin: $baseMargin; }
+
+.u-mt-double,
+%u-mt-double { margin-top: $baseMargin * 2; }
+
+.u-mb-double,
+%u-mb-double { margin-bottom: $baseMargin * 2; }
+
+.u-ml-double,
+%u-ml-double { margin-left: $baseMargin * 2; }
+
+.u-mr-double,
+%u-mr-double { margin-right: $baseMargin * 2; }
+
+.u-mv-double,
+%u-mv-double {
+  margin-top: $baseMargin * 2;
+  margin-bottom: $baseMargin * 2;
+}
+
+.u-mh-double,
+%u-mh-double {
+  margin-left: $baseMargin * 2;
+  margin-right: $baseMargin * 2;
+}
+
+.u-ma-double,
+%u-ma-double { margin: $baseMargin * 2; }
+
+
+
+/* ===== PADDINGS ===== */
+
+.u-pt-zero,
+%u-pt-zero { padding-top: 0; }
+
+.u-pb-zero,
+%u-pb-zero { padding-bottom: 0; }
+
+.u-pl-zero,
+%u-pl-zero { padding-left: 0; }
+
+.u-pr-zero,
+%u-pr-zero { padding-right: 0; }
+
+.u-pv-zero,
+%u-pv-zero {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.u-ph-zero,
+%u-ph-zero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.u-pa-zero,
+%u-pa-zero { padding: 0; }
+
+.u-pt-half,
+%u-pt-half { padding-top: $basePadding / 2; }
+
+.u-pb-half,
+%u-pb-half { padding-bottom: $basePadding / 2; }
+
+.u-pl-half,
+%u-pl-half { padding-left: $basePadding / 2; }
+
+.u-pr-half,
+%u-pr-half { padding-right: $basePadding / 2; }
+
+.u-pv-half,
+%u-pv-half {
+  padding-top: $basePadding / 2;
+  padding-bottom: $basePadding / 2;
+}
+
+.u-ph-half,
+%u-ph-half {
+  padding-left: $basePadding / 2;
+  padding-right: $basePadding / 2;
+}
+
+.u-pa-half,
+%u-pa-half { padding: $basePadding / 2;  }
+
+.u-pt-full,
+%u-pt-full { padding-top: $basePadding; }
+
+.u-pb-full,
+%u-pb-full { padding-bottom: $basePadding; }
+
+.u-pl-full,
+%u-pl-full { padding-left: $basePadding; }
+
+.u-pr-full,
+%u-pr-full { padding-right: $basePadding; }
+
+.u-pv-full,
+%u-pv-full {
+  padding-top: $basePadding;
+  padding-bottom: $basePadding;
+}
+
+.u-ph-full,
+%u-ph-full {
+  padding-left: $basePadding;
+  padding-right: $basePadding;
+}
+
+.u-pa-full,
+%u-pa-full { padding: $basePadding;  }
+
+.u-pt-double,
+%u-pt-double { padding-top: $basePadding * 2; }
+
+.u-pb-double,
+%u-pb-double { padding-bottom: $basePadding * 2; }
+
+.u-pl-double,
+%u-pl-double { padding-left: $basePadding * 2; }
+
+.u-pr-double,
+%u-pr-double { padding-right: $basePadding * 2; }
+
+.u-pv-double,
+%u-pv-double {
+  padding-top: $basePadding * 2;
+  padding-bottom: $basePadding * 2;
+}
+
+.u-ph-double,
+%u-ph-double {
+  padding-left: $basePadding * 2;
+  padding-right: $basePadding * 2;
+}
+
+.u-pa-double,
+%u-pa-double { padding: $basePadding * 2;  }
+
+
+
+/* ===== VISUALS ===== */
+
+.u-center,
+%u-center { text-align: center; }
+
+.u-trim,
+%u-trim  {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.u-rounded,
+%u-rounded { border-radius: $generalRoundCorners; }
+
+.u-rounded-full,
+%u-rounded-full { border-radius: 50%; }
+
+
+
+/* ===== FLOATS AND CLEARING ===== */
+
+.u-cf,
+%u-cf {
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+
+  &::after { clear: both;}
+}
+
+.u-fl,
+%u-fl { float: left; }
+
+.u-fr,
+%u-fr { float: right; }
+
+
+
+/* ===== FLEXBOX ===== */
+
+.u-fx,
+%u-fx { display: flex; }
+
+.u-fx-row-reverse,
+%u-fx-row-reverse { flex-direction: row-reverse; }
+
+.u-fx-column,
+%u-fx-column { flex-direction: column; }
+
+.u-fx-column-reverse,
+%u-fx-column-reverse { flex-direction: column-reverse; }
+
+/**
+ * Also generates placeholders so they can be extended in case of
+ * dynamic behaviour across different breakpoints. Needed because
+ * mixins do not support dynamic naming schemes.
+ *
+ * 1. Generates fixed widths.
+ *    Use when you don't want margins to be part of the calculus.
+ *    Resolve spacing with inner paddings.
+ *
+ * 2. This is affected by any `margin` set on elements.
+ *    The engine computes based on the space available after subtracting margins.
+ */
+
+@each $item in $flexboxName {
+  .u-fx-#{$item},
+  %u-fx-#{$item} {
+    flex: 0 0 calc(#{nth($flexboxNumber, index($flexboxName, $item))} / 12 * 100%); // [1]
+  }
+}
+
+@each $item in $flexboxNumber {
+  .u-fx-#{$item},
+  %u-fx-#{$item} {
+    flex: $item; // [2]
+  }
+}
+
+
+
+/* ===== GRID ===== */
+
+/**
+ * Basic grid utilities. Simply embed the desired class on the parent wrapper.
+ * All children are get their widths automatically calculated.
+ *
+ * DO NOT mix with a flexbox utility! They are mutually exclusive.
+ *
+ * This approach is different from the one where you embed classes on children components.
+ * If you need to do that, use the `flexbox` utilities instead. This is also true if you do
+ * not require equal widths. The purpose of this utility is to evenly split the width bwtween
+ * children plus providing a default gutter between them. Supports only a maximum of four
+ * columns (I've rarely needed to support more, but if you do, you can write your own
+ * and get inspired by the formula used below).
+ */
+
+.u-grid-one,
+%u-grid-one {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * { width: 100%; }
+}
+
+.u-grid-two,
+%u-grid-two {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    width: calc(50% - #{$gridGutter} / 2);
+
+    &:nth-child(2n + 1) { margin-right: $gridGutter; }
+  }
+}
+
+.u-grid-three,
+%u-grid-three {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    width: calc(33.33% - 2 * #{$gridGutter} / 3);
+
+    &:nth-child(3n + 2) {
+      margin-left: $gridGutter;
+      margin-right: $gridGutter;
+    }
+  }
+}
+
+.u-grid-four,
+%u-grid-four {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    width: calc(25% - 3 * #{$gridGutter} / 4);
+
+    &:nth-child(4n + 1),
+    &:nth-child(4n + 2),
+    &:nth-child(4n + 3) {
+      margin-right: $gridGutter;
+    }
+  }
+}

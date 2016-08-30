@@ -1,0 +1,158 @@
+/**
+ * This file contains generic styles of the app.
+ * Only html tag selectors should reside here.
+ */
+
+
+
+/* ===== GLOBAL ===== */
+
+/**
+ * 1. Set everything to have the `border-box` layout
+ */
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box; // [1]
+  }
+}
+
+
+
+/* ===== ROOT ===== */
+
+/**
+ * 1. Force to correct `rem` baseline
+ */
+html {
+  font-size: $fontDefaultSize !important; // [1]
+  font-family: $fontFamilyPrimary;
+  line-height: $lineHeightDefault;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+/* ===== LINKS ===== */
+
+/**
+ * 1. Remove the gray background color from active links in IE 10
+ * 2. Improve readability when focused and mouse hovered
+ *    in all browsers
+ */
+a {
+  background-color: transparent; // [1]
+  color: $colorLink;
+
+  &:active,
+  &:hover {
+    outline: 0; // [2]
+  }
+
+  /**
+   * Define special class to remove decoration
+   */
+  &.no-deco { text-decoration: none; }
+}
+
+
+/* ===== HEADINGS ===== */
+
+h1 { font-size: $h1Size; }
+h2 { font-size: $h2Size; }
+h3 { font-size: $h3Size; }
+h4 { font-size: $h4Size; }
+h5 { font-size: $h5Size; }
+h6 { font-size: $h6Size; }
+
+
+/* ===== MEDIA ===== */
+
+img {
+  max-width: 100%;
+  &[width],
+  &[height] {
+    max-width: none;
+  }
+}
+
+/**
+ * 1. Correct overflow not hidden in IE 10/11
+ */
+svg:not(:root) {
+  overflow: hidden; // [1]
+}
+
+
+
+/* ===== CODE ===== */
+
+/**
+ * 1. Contain overflow in all browsers
+ */
+pre { overflow: auto; }
+
+pre,
+code {
+  font-family: $fontFamilyCoding;
+}
+
+
+
+/* ===== FORM ELEMENTS ===== */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+}
+
+/**
+ * 1. Address inconsistent `text-transform` inheritance
+ *    for `button` and `select`
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Correct inability to style clickable `input` types in iOS
+ * 2. Improve usability and consistency of cursor style
+ */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; // [1]
+  cursor: pointer; // [2]
+}
+
+/**
+ * 1. Set default cursor for disabled elements
+ */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Remove default vertical scrollbar in IE 10/11
+ */
+textarea { overflow: auto; }
+
+
+
+/* ===== OTHER ===== */
+
+/**
+ * 1. Address `hidden` in the markup
+ */
+[hidden] { display: none !important; }
+
+hr { height: 0; }
