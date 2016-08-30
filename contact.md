@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Upcoming Events
-permalink: /upcoming-events
+title: Contact
+permalink: /contact
 ---
 
 Contact page.
