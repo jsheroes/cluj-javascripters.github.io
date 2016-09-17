@@ -30,4 +30,4 @@ so stay tuned!
 Nolan Lawson presents insightful information on JavaScript promises,
 from basic examples to in depth look on how to use them.
 
-Definitely check [this one](https://pouchdb.com/…/…/we-have-a-problem-with-promises.html) out.
+Definitely check [this one](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) out.
