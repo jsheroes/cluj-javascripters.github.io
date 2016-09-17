@@ -60,7 +60,7 @@ table {
 
 html {
   font-size: 22px !important;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Bitter", sans-serif;
   line-height: 1;
 }
 
@@ -96,11 +96,6 @@ i { font-style: italic; }
 .ml-half { margin-left: .5rem; }
 .ml-full { margin-left: 1rem; }
 .ml-double { margin-left: 2rem; }
-
-.oswup {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-}
 
 .highlight { color: #e74c3c; }
 
@@ -175,7 +170,6 @@ i { font-style: italic; }
 .post__content p { margin-bottom: 2rem; }
 
 .post__content h3 {
-  font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 1.25rem;
   font-weight: 700;
@@ -237,6 +231,10 @@ i { font-style: italic; }
   padding-bottom: 3rem;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+.post--is-summary:last-of-type {
+  padding-bottom: 0;
 }
 
 .post--is-summary:not(:last-of-type)::after {
