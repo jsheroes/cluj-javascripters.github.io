@@ -5,7 +5,7 @@ layout: default
 <main class="site-content" role="main">
   <article class="post">
     <header class="post__header">
-      <h2 class="mb-full">
+      <h2>
         {{ page.title | escape }}
       </h2>
     </header>
@@ -13,7 +13,7 @@ layout: default
       {{ content }}
     </section>
     <footer class="post__footer">
-      <p class="mb-full">
+      <p>
         Posted by <span class="highlight">{{ page.author }}</span> on
         <time>
           {{ page.date | date: "%b %-d, %Y" }}
