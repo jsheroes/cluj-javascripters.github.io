@@ -283,7 +283,9 @@ i { font-style: italic; }
   .post { width: 90%; }
   
   .site-header img {
-    width: 90%;
+    width: 50%;
+    position: relative;
+    transform: translate(50%, 0);
   }
 }
 
