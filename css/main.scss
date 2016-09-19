@@ -113,6 +113,10 @@ i { font-style: italic; }
   padding: 3rem 0 6rem;
 }
 
+.site-header img {
+  width: 300px;
+}
+
 
 
 
@@ -276,6 +280,12 @@ i { font-style: italic; }
 
 @media (max-width: 900px) {
   .post { width: 90%; }
+  
+  .site-header img {
+    width: 50%;
+    position: relative;
+    transform: translate(50%, 0);
+  }
 }
 
 @media (max-width: 650px) {
