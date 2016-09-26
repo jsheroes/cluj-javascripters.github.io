@@ -16,7 +16,7 @@ Enjoy!
 ![Be a functional programmer](/img/2016-09-12-week-in-review-img-one.png)
 
 Charles Scalfani is back with the next article from this very good series.
-Make sure you take a look at [part four](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49#.void8uvtl)
+Make sure you take a look at [part four](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-4-18fbe3ea9e49#.void8uvtl).
 
 ### 2. Immutable user interfaces
 
