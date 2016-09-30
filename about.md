@@ -33,6 +33,8 @@ Those ideas, in short, are:
 - Put Cluj on the map as a JavaScript hub
 - Build a community centered around people, not around companies
 
+{% comment %} 
+
 ### Core team
 
 Cluj JavaScripters core team is formed of a couple of passionate members
@@ -77,4 +79,6 @@ Passionate about coffee, fitness, healthy eating, and writing clean code.
 Vlad started writing javascript before jQuery was cool and people were struggling
 IE6 bugs. He now spends his time helping teams build better javascript based apps
 and components, going to the gym, dancing salsa and bachata and searching for that
-unicorn startup idea that will change the world. 
+unicorn startup idea that will change the world.
+
+{% endcomment %} 
