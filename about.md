@@ -41,7 +41,7 @@ collaborating with one another and we're constantly looking for more people to g
 in our community in some way or another.
 
 #### __Vlad Zelinschi__
-##### __Technical Lead at [3PillarGlobal](http://www.3pillarglobal.com/)__
+__Technical Lead at [3PillarGlobal](http://www.3pillarglobal.com/)__
 
 Vlad (close friends call him <span class="highlight">Reign</span> :D) is a pragmatic frontend engineer and an
 avid caffeine consumer. He loves surrounding himself with ever smiling people and he's
@@ -52,7 +52,7 @@ employed as a as a Technical Lead and he's always striving to make the world a
 better place. In his spare time, he writes gibberish on his [personal website](https://thereignn.ghost.io).
 
 #### __Alex Moldovan__
-##### __JavaScript Ninja at [Fortech](http://www.fortech.ro/)__
+__JavaScript Ninja at [Fortech](http://www.fortech.ro/)__
 
 Coder, blogger and tech enthusiast in general, passionate about JavaScript and
 Functional Programming, Alex is always eager to talk about coding and software development
@@ -61,7 +61,7 @@ skills and paradigms. Currently he works as a full stack developer splitting his
 time between JavaScript and Ruby.
 
 #### __Tudor Gergely__
-##### __Software Developer at [Catalysts](https://www.catalysts.cc/en/)__
+__Software Developer at [Catalysts](https://www.catalysts.cc/en/)__
 
 Tudor has had a passion for computers since he was little. Always eager to
 help others and share his knowledge. Used to love algorithms, nowadays his poisons
@@ -71,7 +71,7 @@ code and teach others how to code. His work currently revolves around two (not s
 similar languages - Javascript and Java.
 
 #### __Vlad Nicula__
-##### __JavaScript Consultant__
+__JavaScript Consultant__
 
 Passionate about coffee, fitness, healthy eating, and writing clean code.
 Vlad started writing javascript before jQuery was cool and people were struggling
