@@ -21,7 +21,7 @@ We're passionate about what we do and we love sharing knowledge. Cluj JavaScript
 out of common goals for some of us, and we take those very seriously. We made them our mission,
 our statement, our code by which we stand.
 
-Everything we do is built around a couple of central ideas that we take very seriously and that
+Everything we do is built around a couple of central ideas that we embrace wholeheartedly and that
 have become the very foundation on which we plan to grow this community.
 
 Those ideas, in short, are:
