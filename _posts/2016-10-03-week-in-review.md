@@ -56,9 +56,9 @@ sure you fill in the application form at [http://developer.vectorwatch.com/platf
 
 __CodeCamp - 19 November 2016__
 
-We're super excited that Cluj JavaScripters will be involved in this autumn edition of CodeCamp.
+We're super excited that Cluj JavaScripters will be involved in this autumn edition of CodeCamp!
 We are officially CodeCamp partners and we're very proud of that and of the fact that we can further
-help build an awesome community. We're responsible for the entire JS track, including talk selection, orderof the presentations
+help build an awesome community. We're responsible for the entire JS track, including talks selection, order of the presentations
 and, of course, all the positive vibes and good energy that come with the entire experience.
 
 We'll be there to make a presence! We already have members that registered with great talks so
