@@ -9,9 +9,10 @@ Hello, dear JavaScripters!
 
 Guess what? __Week in review__ is back with another curated list of awesome
 resources. So get a cup of coffee and read on if you haven't had the chance
-by now. 
+by now.
 
 Enjoy!
+<!--more-->
 
 ### 1. So you want to be a functional programmer (2 & 3)
 
@@ -26,7 +27,7 @@ Definitely worth reading!
 
 We found this article to be of great technical value. Although it does
 provide some framework specific examples (namely [Alkali](http://kriszyp.github.io/alkali/)),
-it also tackles and explains general priciples and approaches to reactive programming. 
+it also tackles and explains general principles and approaches to reactive programming.
 
 Link [here](https://davidwalsh.name/modernization-reactivity).
 

@@ -11,6 +11,7 @@ Hope you all had a great weekend. Let's start the week with some lovely technica
 resources and useful info.
 
 Enjoy!
+<!--more-->
 
 ### 1. So you want to be a functional programmer (5)
 
@@ -46,7 +47,7 @@ People were feeling comfortable and engaged us in very productive discussions, m
 entire meetup an awesome experience. We're looking forward to the next one, so stay tuned
 because we have lots of goodies prepared :D.
 
-You can check out resources and photos [here](https://www.meetup.com/Cluj-Javascripters/events/234214960/?comment_table_id=470539110&comment_table_name=event_comment). 
+You can check out resources and photos [here](https://www.meetup.com/Cluj-Javascripters/events/234214960/?comment_table_id=470539110&comment_table_name=event_comment).
 
 __Vector Watch__
 

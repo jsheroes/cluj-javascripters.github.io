@@ -10,6 +10,7 @@ Hello, dear JavaScripters!
 We're back with a list of the best resources from last week.
 
 Enjoy!
+<!--more-->
 
 ### 1. So you want to be a functional programmer (4)
 

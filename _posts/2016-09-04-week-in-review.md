@@ -14,7 +14,7 @@ The goal is to share a curated list of the best links and resources that
 have been posted in the last week on the Facebook group. We appreaciate
 everyone's contribution, so please don't hesitate to share the good stuff that you're
 reading.
-
+<!--more-->
 Without further ado, enjoy the first of its kind!
 
 ### 1. Elm programming language
@@ -23,7 +23,7 @@ Here's a [list](https://github.com/isRuslan/awesome-elm) of very useful resource
 You should certainly try it, it's cool and it's it's <span class="highlight">#functional</span>.
 
 Spoiler alert: we're preparing some talks/workshops on Elm inside Cluj JavaScripters,
-so stay tuned! 
+so stay tuned!
 
 ### 2. We have a problem with promises
 
