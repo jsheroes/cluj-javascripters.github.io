@@ -16,8 +16,12 @@
 title: Cluj JavaScripters
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Cluj JavaScripters is the best JS community evah!
+  Cluj JavaScripters is the best JS community evah! 
 
 # Build settings
 markdown: kramdown
-excerpt_separator: <!--more-->
+
+# Sass settings
+sass:
+    sass_dir: css
+    style: :compressed
