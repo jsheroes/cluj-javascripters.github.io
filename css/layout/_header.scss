@@ -1,0 +1,25 @@
+/**
+ * HEADER STYLES
+ */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 3rem 6rem;
+}
+
+.site-header img { width: 150px; }
+
+@media (max-width: 900px) {
+  .site-header { padding: 3rem 5% 6rem; }
+}
+
+@media (max-width: 650px) {
+  .site-header img { width: 100px; }
+}
+
+@media (max-width: 500px) {
+  .site-header { flex-direction: column; }
+  .site-header nav { margin-top: 3rem; }
+}

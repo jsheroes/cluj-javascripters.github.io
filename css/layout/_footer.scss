@@ -1,0 +1,19 @@
+/**
+ * FOOTER STYLES
+ */
+
+.site-footer {
+  padding: 6rem 0 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (max-width: 500px) {
+  .site-footer > section {
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+  }
+}

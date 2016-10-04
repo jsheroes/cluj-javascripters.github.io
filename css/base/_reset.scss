@@ -1,0 +1,47 @@
+/**
+ * RESET STYLES
+ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+iframe { display: block; }
+
+audio,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+ol,
+ul { margin-left: 1.75rem; }
+
+blockquote,
+q { quotes: none; }
+
+blockquote::before,
+q::before { content: ""; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

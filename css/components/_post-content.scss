@@ -1,0 +1,86 @@
+/**
+ * POST STYLES (POST, PAGE)
+ */
+
+.post {
+  width: 800px;
+  margin-bottom: 10rem;
+}
+
+.post__header { margin-bottom: 4rem; }
+
+.post__header h2 {
+  font-size: 2rem;
+  line-height: 1.35;
+}
+
+.post__tags a + a { margin-left: 10px; }
+
+.post__content {
+  margin-bottom: 4rem;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.post__content--is-page { margin-bottom: 0; }
+
+.post__content h3,
+.post__content ul,
+.post__content ol,
+.post__content blockquote,
+.post__content pre,
+.post__content pre[class*=language-],
+.post__content iframe,
+.post__content p { margin-bottom: 2rem; }
+
+.post__content h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.post__content ol ol,
+.post__content ul ul { margin-bottom: 0; }
+
+.post__content iframe { width: 100%; }
+
+.post__content img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.post__content blockquote,
+.post__content pre { display: block; }
+
+.post__content blockquote {
+  padding: 1rem 1.5rem;
+  color: #1abc9c;
+  border-left: 4px solid #1abc9c;
+  font-style: italic;
+}
+
+.post__content blockquote > * {
+  margin-bottom: 0;
+  font-size: 1.125rem;
+}
+
+.post__content p code {
+  background: #f5f2f0;
+  font-family: monospace;
+  border-radius: 5px;
+  padding: .25rem .5rem;
+}
+
+.post__content pre,
+.post__content pre[class*=language-] {
+  padding: 0 1.5rem;
+  margin-top: 0;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.post__content > *:last-child { margin-bottom: 0; }
+
+@media (max-width: 900px) {
+  .post { width: 90%; }
+}
