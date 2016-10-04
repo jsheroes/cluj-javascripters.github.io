@@ -4,7 +4,9 @@ title: Contact
 permalink: /contact
 ---
 
-Do you want to contact us? Drop an email at <span class="highlight">cluj.javascripters[at]gmail.com</span>.
+### Do you want to contact us?
+
+You can, via email. Drop us a line at <span class="highlight">cluj.javascripters[at]gmail.com</span>.
 
 We’re also active on Facebook, where we have [this awesome group](https://www.facebook.com/groups/412304825640095/) 
 where we post interesting stuff all day, make sure you join to catch up on
