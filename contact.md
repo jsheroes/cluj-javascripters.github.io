@@ -19,3 +19,4 @@ Finally, one of our core values is built around the idea of helping each other a
 working together; so we have [this github repo](https://github.com/cluj-javascripters/community-help) in which we try to help the community
 with all sorts of technical problems people encounter in day to day activities.
 
+__Looking forward to hearing from you!__
