@@ -4,22 +4,26 @@
 
 .site-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 3rem 3rem 6rem;
+  padding: 1rem 0;
+  margin: 0 0 3rem;
+  border-bottom: 2px solid $light-grey;
 }
 
-.site-header img { width: 150px; }
+.site-header nav{ font-weight: 700; }
 
-@media (max-width: 900px) {
-  .site-header { padding: 3rem 5% 6rem; }
-}
+.site-header img { width: 100px; }
 
 @media (max-width: 650px) {
   .site-header img { width: 100px; }
 }
 
 @media (max-width: 500px) {
-  .site-header { flex-direction: column; }
+  .site-header {
+    flex-direction: column;
+    padding-bottom: .6rem;
+  }
+
   .site-header nav { margin-top: 3rem; }
 }
