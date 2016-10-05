@@ -1,0 +1,29 @@
+/**
+ * HEADER STYLES
+ */
+
+.site-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0 0 3rem;
+  border-bottom: 2px solid $light-grey;
+}
+
+.site-header nav{ font-weight: 700; }
+
+.site-header img { width: 100px; }
+
+@media (max-width: 650px) {
+  .site-header img { width: 100px; }
+}
+
+@media (max-width: 500px) {
+  .site-header {
+    flex-direction: column;
+    padding-bottom: .6rem;
+  }
+
+  .site-header nav { margin-top: 3rem; }
+}

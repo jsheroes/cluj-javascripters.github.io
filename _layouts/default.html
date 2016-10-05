@@ -7,11 +7,15 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}" />
 
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+	<meta property="og:title" content="{{ site.title }}" />
+	<meta property="og:description" content="{{ site.description }}" />
+	<meta property="og:image" content="favicon-32x32.png" />
+
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
 </head>
 
@@ -29,11 +33,17 @@
 
   {{content}}
 
-  <footer class="site-footer">
-    <p>
-      Built with <span class="highlight">love</span>. For the community.
-    </p>
-  </footer>
+	<footer class="site-footer">
+		<nav>
+			<a class="mr-double" href="/">Articles</a>
+			<a class="mr-double" href="/about">About</a>
+			<a href="/contact">Contact</a>
+		</nav>
+		<p>
+			<a href="https://github.com/cluj-javascripters/cluj-javascripters.github.io" target="_blank">Built</a> with
+			&#128153; for the community.
+		</p>
+	</footer>
 </body>
 
 </html>

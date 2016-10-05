@@ -1,0 +1,11 @@
+/**
+ * CONTENT STYLES
+ */
+
+.site-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-content > *:last-child { margin-bottom: 0; }
