@@ -3,17 +3,22 @@
  */
 
 .site-footer {
-  padding: 6rem 0 3rem;
+  padding: 2rem 0;
+  margin: 3rem 0 0;
+  font-size: .9rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  background: $light-grey;
 }
 
-
-
 @media (max-width: 500px) {
-  .site-footer > section {
-    justify-content: initial;
+  .site-footer {
     align-items: center;
     flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .site-footer nav {
+    padding-bottom: 1.4rem;
   }
 }

@@ -3,8 +3,9 @@
  */
 
 .post {
-  width: 800px;
-  margin-bottom: 10rem;
+  max-width: 800px;
+  width: 93%;
+  margin: 0 auto 10rem;
 }
 
 .post__header { margin-bottom: 4rem; }
@@ -83,6 +84,4 @@
 
 .post__content > *:last-child { margin-bottom: 0; }
 
-@media (max-width: 900px) {
-  .post { width: 90%; }
-}
+.post__footer { font-style: italic; }
