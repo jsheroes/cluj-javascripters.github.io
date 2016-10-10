@@ -18,4 +18,4 @@ Jose Aguinaga put together the FAQ folks learning Javascript have, giving some c
 Alex Moldovan is pointing out [in this article](https://medium.com/@alexnm/is-mvc-dead-for-the-frontend-35b4d1fe39ec#.o63nudqky) the change in the direction of UI frameworks/libraries that seems to be happening right now, from MVC architectures to  unidirectional dataflows and component based architectures. 
 
 ### 4. Trainings - this week we`ll have 2 rounds of [training on Promises](https://www.meetup.com/Cluj-Javascripters/events/234617641/), more to come in the near future. 
-## Stay tuned! ##
+Stay tuned!
