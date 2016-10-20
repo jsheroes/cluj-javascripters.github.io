@@ -6,9 +6,10 @@ author: Ale
 ---
 
 Hello, dear JavaScripters! Ready to rock the week? Don`t forget the weekly dose of curated content and useful resources before that:
+<!--more-->
 
 ### 1. How it feels to learn Javascript in 2016 
-<!--more-->
+
 Jose Aguinaga put together the FAQ folks learning Javascript have, giving some context and adding historical details to his story. The result is [a great article](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.mu8zdzjj7), easy to read and reasonate with. Enjoy!
 
 ### 2. Resources for those out there starting to learn JS or for those who want to check some best practices come this week from [JavaScript The Right Way](http://jstherightway.org/).
