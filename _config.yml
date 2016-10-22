@@ -27,3 +27,7 @@ sass:
     style: :compressed
 
 excerpt_separator: <!--more-->
+
+paginate: 4
+
+gems: [jekyll-paginate]

@@ -1,0 +1,13 @@
+.pagination .page_number {
+    margin: 0 4rem;
+}
+
+.pagination a.previous::before {
+    content: "←";
+    margin-right: .5rem;
+}
+
+.pagination a.next::after {
+    content: "→";
+    margin-left: .5rem;
+}
