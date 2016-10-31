@@ -29,6 +29,7 @@ Because of the high demand, we organized this in two rounds. Tickets are sold al
 super excited!
 
 First training will be on 09.11.2016. Link [here](https://www.meetup.com/Cluj-Javascripters/events/235154341/).
+
 Second one, the next day. Link [here](https://www.meetup.com/Cluj-Javascripters/events/235171436/).
 
 Looking forward to seeing you there!
