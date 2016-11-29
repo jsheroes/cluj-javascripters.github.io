@@ -7,7 +7,7 @@ author: Alex
 
 Hello, dear JavaScripters!
 
-Have you missed our __Week in review__? We have missed a few posts lately, but we kept ourselves busy. 
+Have you missed our __Week in review__? We have skipped a few posts lately, but we kept ourselves busy. 
 So this post is more like a month in review. Let's see some of the things that happened!
 
 <!--more-->
@@ -21,7 +21,7 @@ We, as a community, had the opportunity to organize one of the tracks at CodeCam
 The energy was there, the community responded, and we ended up having an amazing day. Lots of interesting talks and a full room throughout the day.
 
 It ended with a great panel discussion on the future of JavaScript, participants bringing interesting perspectives on the topic.
-As well, we had a prize consisting in a yearly subscription from [Egghead.io](https://egghead.io/) and we offered it for the best question for the pannel.
+As well, we had a prize consisting in a yearly subscription from [Egghead.io](https://egghead.io/) and we offered it for the best question for the panel.
 
 
 ### 2. Trainings - quite a lot of them
